@@ -1,0 +1,26 @@
+﻿@page
+@model Q2.List.IndexModel
+@{
+}
+<h2>Service Manager</h2>
+<form method="post" asp-page-handler="Search">
+    <div class="col-lg-4">
+        Room<input type="text" name="title" class="col-lg-8 ms-1" />
+    </div>
+    <div class="col-lg-4 ms-5 mt-1">
+        <input type="submit" class="col-lg-2" value="Search" />
+    </div>
+</form>
+
+<h3>List of services</h3>
+<form method="post" asp-page-handler="Import" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-lg-3">
+            <input type="file" name="xmlFile" />
+        </div>
+        <div class="col-lg-3">
+            <input type="submit" value="Import" />
+        </div>
+    </div>
+</form>
+
