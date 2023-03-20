@@ -16,7 +16,7 @@
 
         <StackPanel Orientation="Vertical" Background="DarkOrange" Width="450" 
 					HorizontalAlignment="Left">
-            <Label Content="Guitar List" FontSize="18" Foreground="Yellow" 
+            <Label Content="Guitar List len git" FontSize="18" Foreground="Yellow" 
 				   FontWeight="Bold"/>
             <Label Content="Email"/>
             <TextBox Name="txtEmail"
